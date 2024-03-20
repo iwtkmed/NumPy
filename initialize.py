@@ -16,4 +16,12 @@ c = np.zeros((4, 3, 3))
 
 # All 1's matrix
 x = np.ones((2, 3, 3), dtype="int16")
-print(x)
+# print(x)
+
+# Any other number
+y = np.full((3,4,2), 69)
+# print(y)
+
+# Initialize array of random decimal numbers
+d = np.random.rand(4, 5, 3)
+print(d)
