@@ -11,3 +11,7 @@ print(x)
 # numpy 2d array
 y = np.array([[9.0, 8.0, 7.0], [6.0, 5.0, 4.0]])
 print(y)
+
+# Get dimensions of your numpy array
+print(a.ndim)
+print(y.ndim)
