@@ -14,4 +14,10 @@ after_three_d = before.reshape((2, 2, 2))
 v1 = np.array([1,2,3,4])
 v2 = np.array([5,6,7,8])
 
-print(np.vstack([v1, v1, v2, v2, v2]))
+# print(np.vstack([v1, v1, v2, v2, v2]))
+
+# Horizontally stacking
+h1 = np.ones((3, 3))
+h2 = np.zeros((3, 3))
+
+print(np.hstack([h1, h2]))
