@@ -4,14 +4,16 @@ import numpy as np
 
 # All 0's matrix
 a = np.zeros((5))
-print(a)
-
-print()
+# print(a)
 
 b = np.zeros((3, 4))
-print(b)
-
-print()
+# print(b)
 
 c = np.zeros((4, 3, 3))
-print(c)
+# print(c)
+
+# print(c.dtype) # automatically is float64; can reassign
+
+# All 1's matrix
+x = np.ones((2, 3, 3), dtype="int16")
+print(x)
