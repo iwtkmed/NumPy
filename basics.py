@@ -15,3 +15,7 @@ print(y)
 # Get dimensions of your numpy array
 print(a.ndim)
 print(y.ndim)
+
+# Get shape of numpy array
+print(a.shape)
+print(y.shape)
