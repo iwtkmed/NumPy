@@ -1,13 +1,9 @@
 import numpy as np
 
-a = np.array([1,2,3])
+a = np.array([1,2,3,4,5])
 
-# will change the original a array as well
-# b = a
-
-# copy original array
-b = a.copy()
-b[0] = 100
-
-print(b)
-print(a)
+print(a + 2)
+print(a - 2)
+print(a * 2)
+print(a / 2)
+print(a ** 3)
