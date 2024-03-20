@@ -24,4 +24,8 @@ y = np.full((3,4,2), 69)
 
 # Initialize array of random decimal numbers
 d = np.random.rand(4, 5, 3)
-print(d)
+# print(d)
+
+# Initialize array of random integer values
+i = np.random.randint(10, size=(3, 4, 5))
+print(i)
