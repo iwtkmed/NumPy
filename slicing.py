@@ -6,3 +6,9 @@ print(a)
 
 # Get a specific element [row, column]
 print(a[0, 6])
+
+# Get a specific row
+print(a[0, :])
+
+# Get a specific column
+print(a[:, 6])
