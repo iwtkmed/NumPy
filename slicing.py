@@ -12,3 +12,6 @@ print(a[0, :])
 
 # Get a specific column
 print(a[:, 6])
+
+a[0,6] = 700000000
+print(a)
